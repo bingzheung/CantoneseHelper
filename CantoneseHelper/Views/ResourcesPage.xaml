@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="CantoneseHelper.Views.ResourcesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CantoneseHelper.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource DesktopAcrylicTransparentBrush}">
+        <StackPanel Orientation="Vertical" Padding="8">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="4">
+                        <HyperlinkButton Content="粵拼輸入法" NavigateUri="https://jyutping.app" VerticalAlignment="Center"/>
+                        <TextBlock Text="https://jyutping.app" IsTextSelectionEnabled="True" FontFamily="{StaticResource FixedWidth}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="4">
+                        <HyperlinkButton Content="粵音資料集叢" NavigateUri="https://jyut.net" VerticalAlignment="Center"/>
+                        <TextBlock Text="https://jyut.net" IsTextSelectionEnabled="True" FontFamily="{StaticResource FixedWidth}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="4">
+                        <HyperlinkButton Content="粵典" NavigateUri="https://words.hk" VerticalAlignment="Center"/>
+                        <TextBlock Text="https://words.hk" IsTextSelectionEnabled="True" FontFamily="{StaticResource FixedWidth}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="4">
+                        <HyperlinkButton Content="粵語審音配詞字庫" NavigateUri="https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can" VerticalAlignment="Center"/>
+                        <TextBlock Text="https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can" IsTextSelectionEnabled="True" FontFamily="{StaticResource FixedWidth}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="4">
+                        <HyperlinkButton Content="羊羊粵語" NavigateUri="https://shyyp.net/hant" VerticalAlignment="Center"/>
+                        <TextBlock Text="https://shyyp.net/hant" IsTextSelectionEnabled="True" FontFamily="{StaticResource FixedWidth}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="4">
+                        <HyperlinkButton Content="粵拼 Jyutping" NavigateUri="https://jyutping.org" VerticalAlignment="Center"/>
+                        <TextBlock Text="https://jyutping.org" IsTextSelectionEnabled="True" FontFamily="{StaticResource FixedWidth}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="4">
+                        <HyperlinkButton Content="粵語拼音速遞 - CUHK" NavigateUri="https://www.ilc.cuhk.edu.hk/workshop/Chinese/Cantonese/Romanization" VerticalAlignment="Center"/>
+                        <TextBlock Text="https://www.ilc.cuhk.edu.hk/workshop/Chinese/Cantonese/Romanization" IsTextSelectionEnabled="True" FontFamily="{StaticResource FixedWidth}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="4">
+                        <HyperlinkButton Content="翻轉粵語教室 - PolyU" NavigateUri="https://www.polyu.edu.hk/clc/cantonese/home" VerticalAlignment="Center"/>
+                        <TextBlock Text="https://www.polyu.edu.hk/clc/cantonese/home" IsTextSelectionEnabled="True" FontFamily="{StaticResource FixedWidth}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="4">
+                        <HyperlinkButton Content="懶音診療室 - PolyU" NavigateUri="https://www.polyu.edu.hk/cbs/pronunciation" VerticalAlignment="Center"/>
+                        <TextBlock Text="https://www.polyu.edu.hk/cbs/pronunciation" IsTextSelectionEnabled="True" FontFamily="{StaticResource FixedWidth}" VerticalAlignment="Center"/>
+                </StackPanel>
+        </StackPanel>
+</Page>

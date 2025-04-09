@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CantoneseHelper (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "CantoneseHelper (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
