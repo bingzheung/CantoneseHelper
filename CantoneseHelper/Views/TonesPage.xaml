@@ -8,5 +8,77 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource DesktopAcrylicTransparentBrush}">
-        <TextBlock Text="Tones"/>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Spacing="16" Padding="8">
+                <TextBlock Text="聲調之「上」應讀上聲 soeng5 而非去聲 soeng6" FontSize="12"/>
+                <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" CornerRadius="8">
+                        <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="50"/>
+                                <ColumnDefinition Width="64"/>
+                                <ColumnDefinition Width="64"/>
+                                <ColumnDefinition Width="64"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="例字" Grid.Row="0" Grid.Column="0" Margin="5"/>
+                        <TextBlock Text="粵拼" Grid.Row="0" Grid.Column="1" Margin="5"/>
+                        <TextBlock Text="聲調" Grid.Row="0" Grid.Column="2" Margin="5"/>
+                        <TextBlock Text="調值" Grid.Row="0" Grid.Column="3" Margin="5"/>
+
+                        <TextBlock Text="芬"     Grid.Row="1" Grid.Column="0" Margin="5"/>
+                        <TextBlock Text="fan1"  Grid.Row="1" Grid.Column="1" Margin="5"/>
+                        <TextBlock Text="陰平"   Grid.Row="1" Grid.Column="2" Margin="5"/>
+                        <TextBlock Text="55/53" Grid.Row="1" Grid.Column="3" Margin="5"/>
+
+                        <TextBlock Text="粉"     Grid.Row="2" Grid.Column="0" Margin="5"/>
+                        <TextBlock Text="fan2"  Grid.Row="2" Grid.Column="1" Margin="5"/>
+                        <TextBlock Text="陰上"   Grid.Row="2" Grid.Column="2" Margin="5"/>
+                        <TextBlock Text="35"    Grid.Row="2" Grid.Column="3" Margin="5"/>
+
+                        <TextBlock Text="訓"     Grid.Row="3" Grid.Column="0" Margin="5"/>
+                        <TextBlock Text="fan3"  Grid.Row="3" Grid.Column="1" Margin="5"/>
+                        <TextBlock Text="陰去"   Grid.Row="3" Grid.Column="2" Margin="5"/>
+                        <TextBlock Text="33"    Grid.Row="3" Grid.Column="3" Margin="5"/>
+
+                        <TextBlock Text="焚"     Grid.Row="4" Grid.Column="0" Margin="5"/>
+                        <TextBlock Text="fan4"  Grid.Row="4" Grid.Column="1" Margin="5"/>
+                        <TextBlock Text="陽平"   Grid.Row="4" Grid.Column="2" Margin="5"/>
+                        <TextBlock Text="21/11" Grid.Row="4" Grid.Column="3" Margin="5"/>
+
+                        <TextBlock Text="憤"     Grid.Row="5" Grid.Column="0" Margin="5"/>
+                        <TextBlock Text="fan5"  Grid.Row="5" Grid.Column="1" Margin="5"/>
+                        <TextBlock Text="陽上"   Grid.Row="5" Grid.Column="2" Margin="5"/>
+                        <TextBlock Text="13/23" Grid.Row="5" Grid.Column="3" Margin="5"/>
+
+                        <TextBlock Text="份"     Grid.Row="6" Grid.Column="0" Margin="5"/>
+                        <TextBlock Text="fan6"  Grid.Row="6" Grid.Column="1" Margin="5"/>
+                        <TextBlock Text="陽去"   Grid.Row="6" Grid.Column="2" Margin="5"/>
+                        <TextBlock Text="22"    Grid.Row="6" Grid.Column="3" Margin="5"/>
+
+                        <TextBlock Text="忽"     Grid.Row="7" Grid.Column="0" Margin="5"/>
+                        <TextBlock Text="fat1"  Grid.Row="7" Grid.Column="1" Margin="5"/>
+                        <TextBlock Text="高陰入"  Grid.Row="7" Grid.Column="2" Margin="5"/>
+                        <TextBlock Text="5"     Grid.Row="7" Grid.Column="3" Margin="5"/>
+
+                        <TextBlock Text="法"     Grid.Row="8" Grid.Column="0" Margin="5"/>
+                        <TextBlock Text="faat3"  Grid.Row="8" Grid.Column="1" Margin="5"/>
+                        <TextBlock Text="低陰入"  Grid.Row="8" Grid.Column="2" Margin="5"/>
+                        <TextBlock Text="3"      Grid.Row="8" Grid.Column="3" Margin="5"/>
+
+                        <TextBlock Text="佛"     Grid.Row="9" Grid.Column="0" Margin="5"/>
+                        <TextBlock Text="fat6"  Grid.Row="9" Grid.Column="1" Margin="5"/>
+                        <TextBlock Text="陰入"   Grid.Row="9" Grid.Column="2" Margin="5"/>
+                        <TextBlock Text="2"     Grid.Row="9" Grid.Column="3" Margin="5"/>
+                </Grid>
+        </StackPanel>
 </Page>
