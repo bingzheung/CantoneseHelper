@@ -12,7 +12,7 @@
         <Window.SystemBackdrop>
                 <DesktopAcrylicBackdrop/>
         </Window.SystemBackdrop>
-        
+
         <NavigationView x:Name="NavView"
                         PaneDisplayMode="Auto"
                         IsBackButtonVisible="Collapsed"

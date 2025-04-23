@@ -11,7 +11,7 @@
                                 <!-- Other merged dictionaries here -->
                         </ResourceDictionary.MergedDictionaries>
                         <!-- Other app resources here -->
-                        <FontFamily x:Key="FixedWidth">Jetbrains Mono, Monaspace Neon, Consolas, monospace</FontFamily>
+                        <FontFamily x:Key="FixedWidth">Jetbrains Mono, Monaspace Neon, Roboto Mono, Consolas, Shanggu Sans, Microsoft JhengHei, monospace</FontFamily>
                 </ResourceDictionary>
         </Application.Resources>
 </Application>
