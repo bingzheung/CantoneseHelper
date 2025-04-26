@@ -8,5 +8,162 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource DesktopAcrylicTransparentBrush}">
-        <TextBlock Text="Finals"/>
+        <ScrollViewer>
+                <ListView SelectionMode="None">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16" Padding="8 0 8 0">
+                                <TextBlock Width="64" Text="例字"/>
+                                <TextBlock Width="50" TextAlignment="Center" Text="粵拼"/>
+                                <TextBlock Width="60" TextAlignment="Center" Text="國際音標"/>
+                        </StackPanel>
+                        <StackPanel
+                            Orientation="Vertical"
+                            HorizontalAlignment="Left"
+                            Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                            CornerRadius="8"
+                            Padding="8"
+                            Margin="0 0 0 4"
+                            MaxWidth="224">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="駕 gaa3"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="aa"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ p ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="gaai3"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="aai"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ pʰ ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="gaau3"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="aau"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ m ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="花 faa1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="f"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ f ]"/>
+                                </StackPanel>
+                        </StackPanel>
+                        <StackPanel
+                            Orientation="Vertical"
+                            HorizontalAlignment="Left"
+                            Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                            CornerRadius="8"
+                            Padding="8"
+                            Margin="0 4 0 4"
+                            MaxWidth="224">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="打 daa2"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="d"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ t ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="他 taa1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="t"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ tʰ ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="拿 naa4"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="n"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ n ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="啦 laa1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="l"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ l ]"/>
+                                </StackPanel>
+                        </StackPanel>
+                        <StackPanel
+                            Orientation="Vertical"
+                            HorizontalAlignment="Left"
+                            Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                            CornerRadius="8"
+                            Padding="8"
+                            Margin="0 4 0 4"
+                            MaxWidth="224">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="家 gaa1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="g"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ k ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="卡 kaa1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="k"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ kʰ ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="牙 ngaa4"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="ng"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ ŋ ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="蝦 haa1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="h"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ h ]"/>
+                                </StackPanel>
+                        </StackPanel>
+                        <StackPanel
+                            Orientation="Vertical"
+                            HorizontalAlignment="Left"
+                            Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                            CornerRadius="8"
+                            Padding="8"
+                            Margin="0 4 0 4"
+                            MaxWidth="224">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="瓜 gwaa1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="gw"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ kʷ ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="夸 kwaa1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="kw"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ kʷʰ ]"/>
+                                </StackPanel>
+                        </StackPanel>
+                        <StackPanel
+                            Orientation="Vertical"
+                            HorizontalAlignment="Left"
+                            Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                            CornerRadius="8"
+                            Padding="8"
+                            Margin="0 4 0 4"
+                            MaxWidth="224">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="渣 zaa1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="z"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="t͡s ~ t͡ʃ"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="叉 caa1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="c"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="t͡sʰ ~ t͡ʃʰ"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="沙 saa1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="s"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="s ~ ʃ"/>
+                                </StackPanel>
+                        </StackPanel>
+                        <StackPanel
+                            Orientation="Vertical"
+                            HorizontalAlignment="Left"
+                            Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                            CornerRadius="8"
+                            Padding="8"
+                            Margin="0 4 0 4"
+                            MaxWidth="224">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="蛙 waa1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="w"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ w ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="也 jaa5"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="j"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ j ]"/>
+                                </StackPanel>
+                        </StackPanel>
+                </ListView>
+        </ScrollViewer>
 </Page>
