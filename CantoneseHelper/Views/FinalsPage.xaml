@@ -26,22 +26,47 @@
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
                                         <TextBlock Width="64" Text="駕 gaa3"/>
                                         <TextBlock Width="50" TextAlignment="Center" Text="aa"/>
-                                        <TextBlock Width="60" TextAlignment="Center" Text="[ p ]"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ aː ]"/>
                                 </StackPanel>
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
-                                        <TextBlock Width="64" Text="gaai3"/>
+                                        <TextBlock Width="64" Text="界 gaai3"/>
                                         <TextBlock Width="50" TextAlignment="Center" Text="aai"/>
-                                        <TextBlock Width="60" TextAlignment="Center" Text="[ pʰ ]"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ aːi ]"/>
                                 </StackPanel>
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
-                                        <TextBlock Width="64" Text="gaau3"/>
+                                        <TextBlock Width="64" Text="教 gaau3"/>
                                         <TextBlock Width="50" TextAlignment="Center" Text="aau"/>
-                                        <TextBlock Width="60" TextAlignment="Center" Text="[ m ]"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ aːu ]"/>
                                 </StackPanel>
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
-                                        <TextBlock Width="64" Text="花 faa1"/>
-                                        <TextBlock Width="50" TextAlignment="Center" Text="f"/>
-                                        <TextBlock Width="60" TextAlignment="Center" Text="[ f ]"/>
+                                        <TextBlock Width="64" Text="鑑 gaam3"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="aam"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ aːm ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="諫 gaan3"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="aan"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ aːn ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="耕 gaang1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="aang"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ aːŋ ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="甲 gaap3"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="aap"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ aːp̚ ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="戛 gaat3"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="aat"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ aːt̚ ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="格 gaak3"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="aak"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ aːk̚ ]"/>
                                 </StackPanel>
                         </StackPanel>
                         <StackPanel
@@ -53,24 +78,49 @@
                             Margin="0 4 0 4"
                             MaxWidth="224">
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
-                                        <TextBlock Width="64" Text="打 daa2"/>
-                                        <TextBlock Width="50" TextAlignment="Center" Text="d"/>
-                                        <TextBlock Width="60" TextAlignment="Center" Text="[ t ]"/>
+                                        <TextBlock Width="64" Text="㗎 ga3"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="a"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ ɐ ]"/>
                                 </StackPanel>
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
-                                        <TextBlock Width="64" Text="他 taa1"/>
-                                        <TextBlock Width="50" TextAlignment="Center" Text="t"/>
-                                        <TextBlock Width="60" TextAlignment="Center" Text="[ tʰ ]"/>
+                                        <TextBlock Width="64" Text="計 gai3"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="ai"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ ɐi ]"/>
                                 </StackPanel>
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
-                                        <TextBlock Width="64" Text="拿 naa4"/>
-                                        <TextBlock Width="50" TextAlignment="Center" Text="n"/>
-                                        <TextBlock Width="60" TextAlignment="Center" Text="[ n ]"/>
+                                        <TextBlock Width="64" Text="救 gau3"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="au"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ ɐu ]"/>
                                 </StackPanel>
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
-                                        <TextBlock Width="64" Text="啦 laa1"/>
-                                        <TextBlock Width="50" TextAlignment="Center" Text="l"/>
-                                        <TextBlock Width="60" TextAlignment="Center" Text="[ l ]"/>
+                                        <TextBlock Width="64" Text="禁 gam3"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="am"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ ɐm ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="斤 gan1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="an"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ ɐn ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="庚 gang1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="ang"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ ɐŋ ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="急 gap1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="ap"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ ɐp̚ ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="吉 gat1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="at"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ ɐt̚ ]"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16">
+                                        <TextBlock Width="64" Text="北 bak1"/>
+                                        <TextBlock Width="50" TextAlignment="Center" Text="ak"/>
+                                        <TextBlock Width="60" TextAlignment="Center" Text="[ ɐk̚ ]"/>
                                 </StackPanel>
                         </StackPanel>
                         <StackPanel
