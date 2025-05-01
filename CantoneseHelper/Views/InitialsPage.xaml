@@ -12,7 +12,7 @@
                 <ListView SelectionMode="None">
                         <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="16" Padding="8 0 8 0">
                                 <TextBlock Width="64" Text="例字"/>
-                                <TextBlock Width="50" TextAlignment="Center" Text="粵拼"/>
+                                <TextBlock Width="50" TextAlignment="Center" Text="聲母"/>
                                 <TextBlock Width="60" TextAlignment="Center" Text="國際音標"/>
                         </StackPanel>
                         <StackPanel
